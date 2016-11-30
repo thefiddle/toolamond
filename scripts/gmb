@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#
+# Give perms pack to current user if allowed sudoer
+#
+
+set -e
+sudo chown $USER:$GROUP $*
